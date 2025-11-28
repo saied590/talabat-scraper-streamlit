@@ -3,7 +3,7 @@ import requests
 import json
 import time
 from openpyxl import Workbook
-from openpyxl.utils import get_column_letter
+from openpyxl.utils import get_column_letter # hit
 import re
 import gspread
 from gspread_dataframe import set_with_dataframe
@@ -594,3 +594,4 @@ def run_scraper():
 
 if __name__ == "__main__":
     run_scraper()
+
